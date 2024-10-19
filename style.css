@@ -1,0 +1,323 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar
+{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:100px;
+    background-color: white;
+    position: fixed;
+    border-bottom: 5px solid whitesmoke;
+}
+.MainImage
+{
+    width:60%;
+    height:100px;
+    margin-left: 50PX;
+}
+
+.MenuBar
+{
+
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:100px;
+
+}
+
+.MenuImages
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:86%;
+  height:10px;
+  padding-top: 10px;
+}
+.MenuImages>img{
+    width:50%;
+    height: 80PX;
+}
+#menuItems>p
+{
+margin-top: 40px;
+padding-left: 50px;
+cursor: pointer;
+font-size: 20px;
+}
+#image>img{
+    padding-top: 20px;
+    width:100%;
+}
+.Frontimg
+{
+    width:100%;
+    height:300px;
+    margin-top: 10%;
+}
+
+.Frontimg>img{
+    width:100%;
+    height:100%;
+}
+.RedRedy
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #E02027;
+    width:100%;
+    height:400px;
+}
+.para
+{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    height:100%;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.pr
+{
+    width:80%;
+    height: 35%;
+}
+.pr>p
+{
+    color:white;
+    font-size: 24px;
+    letter-spacing: 3%;
+}
+.watch
+{
+    width:40%;
+    height: 10%;
+}
+.watch>a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
+.pics
+{
+width:20%;
+height: 100%;
+}
+.pics>img{
+    width:100%;
+    height: 100%;
+}
+.Items
+{
+    width:100%;
+    height: 750px;
+    margin-top: 5%;
+    
+}
+
+.product
+{
+    display: flex;
+    justify-content: center;
+
+}
+.product>p
+{
+    justify-content: center;
+    color:#A58596;
+    font-size:200%;
+}
+.Foods
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    width:100%;
+    row-gap: 3%;
+    column-gap: 3%;
+}
+
+.foodItem
+{
+    border:2px solid #A58596;
+    border-top-color: #E02027;
+    border-bottom-color: #E02027;
+    margin-left: 3%;
+    margin-top: 10%;
+    border-radius: 10%;
+}
+.foodItem>h1{
+    padding-left: 29%;
+    color:red;
+}
+.foodItem>img
+{
+width:100%;
+height:80%;
+padding-left:3%;
+padding-top: 20%;
+cursor: pointer;
+}
+.Items2
+{
+    width:100%;
+    height: 450px;
+    margin-top: 15%;
+}
+#hr1
+{
+    padding-top: 10%;
+}
+.Rewards
+{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:500px;
+    background-color: #E02027;
+}
+.Experience
+{
+    margin-left: 10%;
+    width:40%;
+    height: 100%;
+}
+
+.kAndnsPic
+{
+width:40%;
+height:27%;
+}
+.kAndnsPic>img
+{
+    width:100%;
+    height: 100%;
+}
+.Paraga
+{
+    width:100%;
+    height: 40%;
+    margin-top: 3%;
+}
+.main
+{
+    width:100%;
+    height:30%;
+}
+.main>p{
+    color:rgba(255, 255, 255, 0.889);
+    font-size: 200%;
+}
+.details
+{
+    width:100%;
+    height:100%; 
+    padding-top: 3%;
+    color: rgba(255, 255, 255, 0.889);
+}
+.last
+{
+    width:35%;
+    height: 15%;
+    color:rgba(255, 255, 255, 0.889);
+    row-gap: 2%;
+}
+
+.cards
+{
+    width:55%;
+    height: 100%;
+}
+.cards>img
+{
+    width:100%;
+    height: 100%;
+}
+.lasting
+{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:500px;
+    background-color: #FBF4ED;
+    border-bottom: 20px solid white;
+}
+#lastpic
+{
+    width:50%;
+    height: 100%;
+}
+#lastpic>img
+{
+    width:100%;
+    height:100%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+#lastdes
+{
+    width:50%;
+    height: 100%;
+    padding-top: 3%;
+}
+#omg
+{
+    width:-10%;
+    height: 30%;
+    margin-left: 70%;
+}
+
+#omg>img
+{
+    width:60%;
+    height: 80%;
+}
+#banner
+{
+    width:18%;
+    height:5%;
+    background-color:#AAAAAB;
+    margin-left:2%;
+}
+#banner>p{
+color:white;
+padding-left: 8%;
+}
+#recepieTitle
+{
+    width:50%;
+    height: 25%;
+}
+#recepieTitle>p{
+    padding-left: 7%;
+    font-size: 200%;
+    color:#494949;
+}
+#des
+{
+    width:60%;
+    height:30%;
+    font-size: 130%;
+    margin-left: 3%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#494949;
+}
+.daffodils
+{
+    width:100%;
+    height: 320px;
+    background-color: yellow;
+}
+.daffodils>a>img
+{
+    width:100%;
+    height: 100%;
+    cursor: pointer;
+}
